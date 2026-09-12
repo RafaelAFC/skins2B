@@ -5,8 +5,19 @@
 }
 main{
     width: 100%;
-    height: 100vh;
-    background: #333;
+    height: auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 20vh;
+    background: #1c1d57;
+    
+}
+header h1{
+    font-size: 3.5rem;
+    color: #b92020;
+    padding-top: 5vh;
 }
 section{
     width: 100%;
@@ -19,4 +30,19 @@ section{
 }
 #valorant{
     background: #F74352;
+}
+.skins{
+    width: 18%;
+    height: 30vh;
+    background: #fff;
+    margin-left: 1.6%;
+    margin-top: 0.5vh;
+    float: left;
+    border-radius: 12px;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    background: #0e0f38;
+    float: left;
 }
